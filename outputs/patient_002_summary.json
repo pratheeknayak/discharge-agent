@@ -1,0 +1,110 @@
+{
+  "patient_demographics": {
+    "value": "Name: [MISSING - FLAG FOR REVIEW], Age: [MISSING - FLAG FOR REVIEW], Gender: Female, MRN: [ILLEGIBLE], IP No: [MISSING - FLAG FOR REVIEW], Weight: 71 kg",
+    "source": "page_1_handwritten,page_3_er_observation_chart,page_15_procedure_chart,page_24_discharge_check_list"
+  },
+  "admission_discharge_dates": {
+    "value": "Admission: 26/02/26, Discharge: 2/3/26",
+    "source": "page_17_nurses_notes,page_22_nurses_notes,page_23_nurses_notes"
+  },
+  "principal_diagnosis": {
+    "value": "ACUTE GASTROENTERITIS WITH DEHYDRATION",
+    "source": "page_1_handwritten"
+  },
+  "secondary_diagnoses": {
+    "value": "URINARY TRACT INFECTION, DKA",
+    "source": "page_1_handwritten,page_3_er_observation_chart"
+  },
+  "discharge_condition": {
+    "value": "Hemodynamically stable",
+    "source": "page_2_handwritten"
+  },
+  "hospital_course": {
+    "value": "Patient presented to us with above mentioned complaints. After evaluation, she was admitted to ward. Initial investigations showed normal CBC. Serum creatinine (1.65mg/dl) done was elevated. Serum electrolytes done showed low serum sodium(128.00mmol/L). Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited. She was treated with IV fluids, IV antibiotics, IV PPI's, IV antiemetics and other supportive measures. USG abdomen and pelvis done showed Grade-I fatty liver changes and mildly edematous part of ascending colon upto the hepatic flexure- could represent colitis. Repeat Serum Creatinine(1.17mg/dl) done was normal. TSH and Free T4 done were normal. Stool routine done showed 2-3/hpf of red blood cells, plenty/hpf of pus cells. Patient was advised to stay back for further management but attenders not willing to the same, hence being discharged at request with following advice.",
+    "source": "page_1_handwritten,page_2_handwritten"
+  },
+  "procedures": {
+    "value": "IV Cannulization (20g, 18G), Felley's Catheterisation (16F), Phototherapy, Urine C./S., Blood C./S., PD. Sets & Vein O Line, Oxygen, USG/ECHO, Dressing, ECG, CT KUB plain, Serum creatinine, Serum electrolytes, Urine routine, TSH and Free T4, Stool routine, ABG, CBC.",
+    "source": "page_1_handwritten,page_2_handwritten,page_3_er_observation_chart,page_7_nursing_documentation,page_9_nursing_documentation,page_15_procedure_chart,page_17_nurses_notes"
+  },
+  "allergies": {
+    "value": "Not Known",
+    "source": "page_16_nursing_assessment,page_17_nurses_notes,page_21_nurses_notes,page_22_nurses_notes"
+  },
+  "pending_results": {
+    "value": "Urine culture and sensitivity, CBC, S-creat.",
+    "source": "page_1_handwritten,page_2_handwritten,page_19_nurses_notes"
+  },
+  "follow_up_instructions": {
+    "value": "Urine culture and sensitivity sent- report awaited. Review immediately in case of fever, loose stools, vomiting, fatigue. Review on 09.03.2026. CBC",
+    "source": "page_2_handwritten"
+  },
+  "admission_medications": {
+    "value": "Thyroid disorder medication (name not specified) for K/C/O Thyroid disorder on treatment from page 1. Insulin doses from 22/2/24: 16U (BBF/BL), 20U (BD/AD) from page 25. INJ PAN 40mg IV administered at 6:14PM on 26/2/26 from page 4. INJ EMESET 4mg IV administered at 6:14PM on 26/2/26 from page 4.",
+    "source": "page_1_handwritten, page_25_diabets_hospital_monitoring_chart, page_4_er_observation_chart"
+  },
+  "discharge_medications": {
+    "value": "1. TAB. RACIPER 40MG (Frequency: 1-0-0, Duration: 7 DAYS) from page 2. 2. TAB. EMESET 4MG (Frequency: 1-1-1, Duration: 3 DAYS) from page 2. 3. TAB. OFLOX TZ (Dosage: [MISSING - FLAG FOR REVIEW], Frequency: 1-0-1, Duration: 5 DAYS) from page 2. 4. TAB M STRONG (Dosage: [MISSING - FLAG FOR REVIEW], Frequency: 1-0-0, Duration: 15 DAYS) from page 2. 5. TAB. ZEDOTT (Dosage: [MISSING - FLAG FOR REVIEW], Frequency: 1-1-1, Duration: 3 DAYS) from page 2. 6. TAB. ENTRIC (Dosage: [MISSING - FLAG FOR REVIEW], Frequency: 1-0-1, Duration: 3 DAYS) from page 2. 7. TAB. MEFTAL SPAS 1 TAB SOS (Duration: 4 TABLETS) from page 2. 8. TAB. LOPIRAMIDE 2MG (Frequency: 1-0-1, Duration: 5 DAYS) from page 2.",
+    "source": "page_2_handwritten"
+  },
+  "medication_changes": {
+    "value": "1. INJ PAN 40mg IV: Initiated at 6:14PM on 26/2/26 (page 4). Stopped and replaced by oral TAB. RACIPER 40MG at discharge (page 2). Reason: Transition to oral medication. 2. INJ EMESET 4mg IV: Initiated at 6:14PM on 26/2/26 (page 4). Stopped and replaced by oral TAB. EMESET 4MG at discharge (page 2). Reason: Transition to oral medication. 3. Inj- Tramadol 3ml IV: Added on 27/2/26 (page 7). Reason: One episode of chills and Tachycardia. Not prescribed at discharge (absence from page 2). 4. Inj -PCT 1gm: Added on 27/2/26 (page 8). Reason: fever spike Temp-103. Not prescribed at discharge (absence from page 2). 5. Inj- Meropenem 1gm: Added on 28/2/26 6AM as an IV antibiotic (page 8). Stopped and replaced by oral TAB. OFLOX TZ at discharge (page 2). Reason: Transition to oral medication. 6. Inj- Happy Nours plus: Added on 28/2/26 6AM (page 8). Not prescribed at discharge (absence from page 2). 7. Inj- sumol 1gm stat: Added on 1/3/26 (page 19). Reason: Temp-100\u00b0F. Not prescribed at discharge (absence from page 2). 8. TAB M STRONG: Added as a new oral medication at discharge (page 2). 9. TAB. ZEDOTT: Added as a new oral medication at discharge (page 2). 10. TAB. ENTRIC: Added as a new oral medication at discharge (page 2). 11. TAB. MEFTAL SPAS: Added as a new oral medication at discharge (page 2). 12. TAB. LOPIRAMIDE 2MG: Added as a new oral medication at discharge (page 2). 13. Thyroid disorder medication (name not specified): Patient was K/C/O Thyroid disorder on treatment (page 1), but this medication is not explicitly listed on the discharge medication advice (page 2) nor explicitly documented as stopped. 14. Insulin: Administered until the discharge date (2/3/26) as per the diabetes monitoring chart (page 25), but not explicitly listed on the discharge medication advice (page 2) nor explicitly documented as stopped.",
+    "source": "page_1_handwritten, page_2_handwritten, page_4_er_observation_chart, page_7_nursing_documentation, page_8_nursing_documentation, page_19_nurses_notes, page_25_diabets_hospital_monitoring_chart"
+  },
+  "lab_results": {
+    "value": "CBC: 'Initial investigations showed normal CBC.' (page 1). HB: 10.4 gm/dl (28/2/26), 10.7 gm/dl (1/3/26) (page 6). TLC: 11,200 cell/cumm (28/2/26), 12,100 cell/cumm (1/3/26) (page 6). PLAT: 1.28 lakh/cumm (28/2/26), 1.60 lakh/cumm (1/3/26) (page 6). HAEMOGLOBIN (HB): 12.0 gm/dl (Ref: 13.5 - 17.5) (page 28). TOTAL COUNT: 6680 Cells/cumm (Ref: 4000 - 11000) (page 28). NEUTROPHILS: 79.1 % (Ref: 35 - 66) (page 28). LYMPHOCYTES: 12.1 % (Ref: 24 - 44) (page 28). MONOCYTES: 7.9 % (Ref: 3 - 6) (page 28). EOSINOPHILS: 0.8 % (Ref: 0 - 6) (page 28). BASOPHILS: 0.1 % (Ref: 0 - 1) (page 28). PLATELET COUNT: 1.80 Lakhs/cumm (Ref: 1.5 - 4.5) (page 28). RBC COUNT: 4.57 mill/cumm (Ref: 4.5 - 5.9) (page 28). PACKED CELL VOLUME(PCV): 35.9 % (Ref: 37 - 53) (page 28). MCV: 78.6 fl (Ref: 80 - 100) (page 28). MCH: 26.3 pg (Ref: 25 - 35) (page 28). MCHC: 33.4 g/dl (Ref: 32 - 36) (page 28). RDW-CV: 12.2 % (Ref: 11.5 - 14) (page 28). MEAN PLATELET VOLUME(MPV): 10.9 fl (Ref: 6.5 - 12) (page 28). Haemoglobin (Hb): 11.4 gm/dl (Ref: 13.0 - 17.0) (page 29). Total WBC Count: 7160 Cells/cmm (Ref: 4000 - 11000) (page 29). Neutrophils: 78 % (Ref: 42 - 72) (page 29). Lymphocytes: 17 % (Ref: 20 - 50) (page 29). Eosinophils: 1 % (Ref: 00 - 06) (page 29). Monocytes: 4 % (Ref: 02 - 10) (page 29). Basophils: 00 % (Ref: 00 - 01) (page 29). Packed Cell Volume - PCV: 32.8 % (Ref: 35 - 48) (page 29). RBC Count: 4.25 Million/cmm (Ref: 4.0 - 5.5) (page 29). Mean Corpuscular Volume - MCV: 77.2 fL (Ref: 80.0 - 100.0) (page 29). Mean Corpuscular Hemoglobin - MCH: 26.8 pg (Ref: 27.0 - 32.0) (page 29). Mean Corpuscular Hemoglobin Concentration - MCHC: 34.8 gm/dL (Ref: 31.0 - 35.0) (page 29). Platelet Count: 2.56 Lakhs/cmm (Ref: 1.40 - 4.50) (page 29). \nCreatinine: Serum creatinine: 1.65mg/dl (elevated) (page 1). Repeat Serum Creatinine: 1.17mg/dl (normal) (page 2). CREATINNE: 1.02 mg/dl (28/2/26), 1.04 mg/dl (1/3/26) (page 6). SERUM CREATININE: 0.85 mg/dL (Ref: 0.7 - 1.4) (page 27). \nSodium: Serum sodium: 128.00mmol/L (low) (page 1). S.SODIUM: 127.88 mmol/L (Ref: 135 - 150) (page 27). Sodium [Na+]: 114 mmol/L (Ref: 136 - 146) (page 28). \nGlucose: Blood Glucose: 443 mg/dl (6:14PM) (page 3, 16). BS: 267 (BL), 389 (AD) (22/2/24) (page 25). BS: 265 (BBF), 177 (ABF), 270 mg/dl (BD) (1/3/26) (page 25). BS: 217 (BBF), 167 mg/dl (BL) (2/3/26) (page 25). RANDOM BLOOD SUGAR (RBS): 496.00 mg/dl (Ref: 80 - 140) (page 27). \nABG: pH: 7.38 mm Hg (Ref: 7.35 - 7.45) (page 28). pCO2: 32.00 mm Hg (page 28). pO2: 70 mm Hg (page 28). Sodium [Na+]: 114 mmol/L (Ref: 136 - 146) (page 28). Potassium [K+]: 2.65 mmol/L (Ref: 3.4 - 4.5) (page 28). Chloride [Cl-]: 83 mmol/L (Ref: 98 - 107) (page 28). cCALCIUM: 0.71 mmol/L (Ref: 1.15 - 1.33) (page 28). HCT: 36 % (Ref: 35 - 50) (page 28). HAEMOGLOBIN: 11.60 g/dL (Ref: 12 - 16) (page 28). SO2(C): 94.20 % (page 28). CHCO3: 18.00 mmol/L (Ref: 20 - 28) (page 28). BE: -8.80 mmol/L (page 28). LACTATE: 0.80 mmol/L (Ref: 0.3 - 2.0) (page 28).",
+    "source": "page_1_handwritten, page_2_handwritten, page_3_er_observation_chart, page_6_investigations, page_16_nursing_assessment_on_admission, page_25_diabets_hospital_monitoring_chart, page_27_biochemistry_report, page_28_abg, page_28_haematology_report, page_29_haematology"
+  },
+  "clinician_flags": [
+    {
+      "section": "medication_changes",
+      "reason": "MEDICATION STOPPED",
+      "details": "inj emeset 4mg iv was stopped \u2014 reason not documented",
+      "severity": "REVIEW"
+    },
+    {
+      "section": "medication_changes",
+      "reason": "MEDICATION STOPPED",
+      "details": "inj pan 40mg iv was stopped \u2014 reason not documented",
+      "severity": "REVIEW"
+    },
+    {
+      "section": "medication_changes",
+      "reason": "MEDICATION STOPPED",
+      "details": "insulin doses from 22/2/24 was stopped \u2014 reason not documented",
+      "severity": "REVIEW"
+    },
+    {
+      "section": "medication_changes",
+      "reason": "MEDICATION STOPPED",
+      "details": "thyroid disorder medication (name was stopped \u2014 reason not documented",
+      "severity": "REVIEW"
+    }
+  ],
+  "_meta": {
+    "status": "DRAFT - REQUIRES CLINICIAN REVIEW",
+    "model": "models/gemini-2.5-flash",
+    "architecture": "LangGraph 6-node pipeline",
+    "patient_id": "patient_002",
+    "sections_found": [
+      "admission_discharge_dates",
+      "admission_medications",
+      "allergies",
+      "discharge_condition",
+      "follow_up_instructions",
+      "hospital_course",
+      "lab_results",
+      "medication_changes",
+      "pending_results",
+      "principal_diagnosis",
+      "procedures",
+      "secondary_diagnoses"
+    ],
+    "sections_missing": [
+      "discharge_medications",
+      "patient_demographics"
+    ],
+    "flags_count": 4,
+    "extraction_failed": false
+  }
+}
