@@ -17,12 +17,21 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-.flag-critical{background:#fee2e2;border-left:4px solid #ef4444;
-               padding:8px 12px;margin:4px 0;border-radius:4px;}
-.flag-warning {background:#fef9c3;border-left:4px solid #eab308;
-               padding:8px 12px;margin:4px 0;border-radius:4px;}
-.flag-review  {background:#e0f2fe;border-left:4px solid #3b82f6;
-               padding:8px 12px;margin:4px 0;border-radius:4px;}
+.flag-critical{background:#7f1d1d;border-left:5px solid #ef4444;
+               padding:10px 14px;margin:5px 0;border-radius:6px;
+               color:#fecaca !important;}
+.flag-critical strong{color:#fca5a5 !important;}
+.flag-critical small{color:#fca5a5 !important;}
+.flag-warning {background:#713f12;border-left:5px solid #f59e0b;
+               padding:10px 14px;margin:5px 0;border-radius:6px;
+               color:#fde68a !important;}
+.flag-warning strong{color:#fcd34d !important;}
+.flag-warning small{color:#fde68a !important;}
+.flag-review  {background:#1e3a5f;border-left:5px solid #3b82f6;
+               padding:10px 14px;margin:5px 0;border-radius:6px;
+               color:#bfdbfe !important;}
+.flag-review strong{color:#93c5fd !important;}
+.flag-review small{color:#bfdbfe !important;}
 .med-table    {width:100%;border-collapse:collapse;font-size:0.9em;}
 .med-table th {background:#1e3a5f;color:white;padding:8px;text-align:left;}
 .med-table td {padding:7px 8px;border-bottom:1px solid #334155;}
@@ -255,18 +264,14 @@ if run_btn and uploaded_files and api_key:
                 section = flag.get("section","?").upper()
                 reason  = flag.get("reason", "?")
                 details = flag.get("details","")
-                css     = {
-                    "CRITICAL": "flag-critical",
-                    "WARNING" : "flag-warning",
-                    "REVIEW"  : "flag-review"
-                }.get(sev, "flag-review")
-                st.markdown(
-                    f'<div class="{css}">'
-                    f'<strong>[{sev}] [{section}]</strong> '
-                    f'{reason}<br><small>{details}</small>'
-                    f'</div>',
-                    unsafe_allow_html=True
-                )
+                icon    = {"CRITICAL":"🔴","WARNING":"🟡","REVIEW":"🔵"}.get(sev,"🔵")
+                label   = f"{icon} **[{sev}] [{section}]** — {reason}"
+                if sev == "CRITICAL":
+                    st.error(f"{label}\n\n{details}")
+                elif sev == "WARNING":
+                    st.warning(f"{label}\n\n{details}")
+                else:
+                    st.info(f"{label}\n\n{details}")
 
         # ── Summary Sections ──────────────────────────────────────
         st.subheader("📋 Discharge Summary Draft")
